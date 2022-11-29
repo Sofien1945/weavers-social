@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-900 text-white;
+  }
+}
+
+@layer components {
+  .sidebar {
+    @apply col-span-3 md:col-span-2 md:order-3 p-2 border-2 rounded h-fit;
+  }
+}
